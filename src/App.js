@@ -24,10 +24,11 @@ const App = () => {
         <Route exact path="/about" component={AboutComp} />
         <Route exact path="/mahasiswa" component={ListComp} />
         <Route exact path="/mahasiswa/tambah" component={TambahComp} />
-        <Route exact path="/mahasiswa/edit" component={EditComp} />
+        <Route exact path="/buku/edit" component={EditComp} />
         <Route exact path="/kelas" component={KelasComp} />
         <Route exact path="/hooks" component={HooksComp} />
-       
+        <Route exact path="/kelas" component={KelasComp} />
+        <Route exact path="/hooks" component={HooksComp} />
         {/*<Route exact path="/detail/:id" component={DetailComp}/>*/}
       </Switch>
       </CartContext.Provider>
