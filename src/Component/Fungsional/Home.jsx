@@ -6,10 +6,7 @@ const Home = () => {
     return <div>
     <Produk nama="Xiaomi Pro 8" stock="10" harga="3.000.000"/>
     <Produk nama="Xiaomi Pro 8" stock="10" harga="3.000.000"/>
-    <Produk nama="Xiaomi Pro 8" stock="10" harga="3.000.000"/>
-    <Produk nama="Xiaomi Pro 8" stock="10" harga="3.000.000"/>
-    <Produk nama="Xiaomi Pro 8" stock="10" harga="3.000.000"/>
-    <Produk nama="Xiaomi Pro 8" stock="10" harga="3.000.000"/>
+    
     </div>
 }
 
