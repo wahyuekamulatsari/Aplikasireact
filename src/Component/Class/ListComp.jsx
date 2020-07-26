@@ -70,6 +70,11 @@ class ListComp extends Component {
                             <th>Nama</th>
                             <th>Jurusan</th>
                             <th>Tindakan</th>
+
+                            <th>NIM</th>
+                            <th>Nama</th>
+                            <th>Jurusan</th>
+                            <th>Tindakan</th>
                         </tr>
                     </thead>
 
