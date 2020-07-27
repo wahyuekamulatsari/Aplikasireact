@@ -9,7 +9,7 @@ function AboutComp() {
     <div>
       <Jumbotron>
         <h1 className="display-3">Tentang Kami </h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p className="lead"></p>
         <hr className="my-2" />
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p className="lead">
@@ -19,6 +19,9 @@ function AboutComp() {
 
       <Container>
         <Row>
+          <Col><CardComp id="1" judul = "Belajar React" tanggal="20/06/2020"/></Col>
+          <Col><CardComp id="2" judul = "Belajar Laravel" tanggal="21/06/2020"/></Col>
+          <Col><CardComp id="3" judul = "Belajar Bootstrap" tanggal="22/06/2020"/></Col>
           <Col><CardComp id="1" judul = "Belajar React" tanggal="20/06/2020"/></Col>
           <Col><CardComp id="2" judul = "Belajar Laravel" tanggal="21/06/2020"/></Col>
           <Col><CardComp id="3" judul = "Belajar Bootstrap" tanggal="22/06/2020"/></Col>
